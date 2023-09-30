@@ -1,7 +1,5 @@
 import { galleryItems } from './gallery-items.js';
 
-console.log(galleryItems);
-
 let images = galleryItems
   .map(image => `
   <li class="gallery__item">
